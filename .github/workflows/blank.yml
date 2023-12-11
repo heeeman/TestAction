@@ -37,7 +37,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.0
       - name: call sub Action
-        uses: heeeman/testSubAction/.github/workflows@main
+        uses: heeeman/testSubAction@main
       - name: script
         run: |
           node actionscript.js
