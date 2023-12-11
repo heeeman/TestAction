@@ -1,1 +1,1 @@
-console.log("Hello from script");
+console.log("Hello from action script");
