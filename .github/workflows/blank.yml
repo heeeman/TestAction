@@ -40,4 +40,5 @@ jobs:
       - name: script
         run: |
           node actionscript.js
+          cd .github/workflows
           node hello.js
