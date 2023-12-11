@@ -38,6 +38,9 @@ jobs:
         uses: actions/setup-node@v4.0.0
       - name: call sub Action
         uses: heeeman/testSubAction@main
+      - name: debug
+        run: |
+          ls
       - name: script
         run: |
           node actionscript.js
