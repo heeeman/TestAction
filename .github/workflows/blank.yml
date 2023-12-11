@@ -36,11 +36,12 @@ jobs:
           echo test, and deploy your project.
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.0
-      - name: call sub Action
-        uses: heeeman/testSubAction@main
       - name: debug
         run: |
-          ls
+          ls -R
+      - name: call sub Action
+        uses: heeeman/testSubAction@main
+
       - name: script
         run: |
           node actionscript.js
