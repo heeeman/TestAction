@@ -39,5 +39,5 @@ jobs:
 
       - name: script
         run: |
-          node actionsript.js
+          node actionscript.js
           node hello.js
